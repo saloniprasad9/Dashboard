@@ -1,0 +1,8 @@
+.dashboard{
+    position: relative;
+    width: 1250px;
+    height: 600px;
+
+    /* Background */
+    background: #F5F5F5;
+}

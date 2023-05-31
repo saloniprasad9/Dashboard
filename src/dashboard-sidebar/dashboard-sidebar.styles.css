@@ -1,0 +1,162 @@
+.sidebar-container{
+    float: left;
+    background-color: black;
+    width : 250px;
+    height : 600px;
+    color: white;
+    margin-top : 20px;
+    border-radius: 40px;
+    margin-left : 20px;
+    
+}
+.board1{
+   right : 70px;
+   align-items: center;
+   margin-left: 60px;
+}
+.sidebar{
+    position: absolute;
+    /* left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; */
+
+    background: #000000;
+}
+.icons-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+.dashboard-icon{
+    position: absolute;
+    margin-left: 40px;
+    margin-right: 40px;
+    top: 17.58%;
+    bottom: 80.51%;
+}
+.dashboard1{
+    position: absolute;
+    left: 100px;
+    right: 30px;
+    top : 85px;
+    bottom: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+.transactionsicon{
+    position: absolute;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom : 170px ;
+    top : 130px;
+    left : 20px;
+}
+.transactions{
+    position: absolute;
+    left: 100px;
+    right: 30px;
+    top : 130px;
+    bottom: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+.schedulesicon{
+    position: absolute;
+    margin-left: 40px;
+    margin-right: 40px;
+    top: 180px;
+    left : 20px;
+    bottom: 80.51%;
+}
+.schedules{
+    position: absolute;
+    left: 100px;
+    right: 30px;
+    top : 180px;
+    bottom: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+.usersicon{
+    position: absolute;
+    margin-left: 40px;
+    margin-right: 40px;
+    top: 230px;
+    left : 20px;
+    bottom: 80.51%;
+}
+.users{
+    position: absolute;
+    left: 100px;
+    right: 30px;
+    top : 230px;
+    bottom: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+.settingsicon{
+    position: absolute;
+    margin-left: 40px;
+    margin-right: 40px;
+    top: 280px;
+    left : 20px;
+    bottom: 80.51%;
+}
+.settings{
+    position: absolute;
+    left: 100px;
+    right: 30px;
+    top : 280px;
+    bottom: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+.help{
+    right : 30px;
+    margin-top: 380px;
+}
+.contact{
+    margin-left : 30px;
+}

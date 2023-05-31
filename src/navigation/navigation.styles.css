@@ -1,0 +1,85 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    width: 600px;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: flex-start;
+    margin: auto;
+    height: 30px;
+    left: 380px;
+}
+
+.dashboard-header{
+    position: absolute;
+    width: 138px;
+    height: 29px;
+    /* left: 380px;
+    right : 340px; */
+    /* top: 60px; */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.search-bar{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 400px;
+    /* top: 60px; */
+
+
+}
+
+.search-box{
+    position: absolute;
+    width: 200px;
+    height: 17px;
+    /* left: 1108px; */
+    top: 29px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+
+    /* Light grey */
+    color: #B0B0B0;
+}
+.search-icon{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 280px;
+    top: 33px;
+}
+.bell{
+    position: absolute;
+    left: 760px;
+    right: 40px;
+    top: 29px;
+    bottom: 91.7%;
+
+    /* background: #000000; */
+}
+.picture{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 50px;
+    left : 820px;
+    top: 23px;
+}
+/* .logout-button{
+
+} */

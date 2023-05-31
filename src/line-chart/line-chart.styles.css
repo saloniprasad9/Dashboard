@@ -1,0 +1,10 @@
+.line-chart{
+    height : 140px;
+    float: right; 
+    align-items: center;
+    margin: auto;
+    width: 40%;
+    height : 100px;
+    padding: 10px;
+    top : 40px;
+}
