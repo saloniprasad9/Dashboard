@@ -6,19 +6,19 @@ import { query, collection, getDocs, where } from "firebase/firestore";
 import SideBar from "../dashboard-sidebar/dashboard-sidebar.component";
 import Navigation from "../navigation/navigation.component";
 import Card from "../card/card.component";
-import Graph from "../line-chart/line-chart.component";
 import ScheduleCard from "../schedule-card/schedule-card.component";
 import './dashboard.styles.css';
 import ProductCard from "../top-product-card/top-product-card.component";
+import Activities from "../activities/activities.component";
 const Dashboard = () => {
     const navigate = useNavigate();
     return (
         <div className="dashboard">
             <Navigation/>
             <SideBar/>
-            {/* <Card/> */}
+            <Card/>
             <ProductCard/>
-            <Graph/>
+            <Activities/>
             <ScheduleCard/>
         </div>
     )

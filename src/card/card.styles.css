@@ -1,12 +1,208 @@
-.card-list{
-    display: flex;
-    flex-direction:row;
-    margin-right: 40px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+.revenues{
+    position: absolute;
+    width: 180px;
+    height: 90px;
+    left: 380px;
+    top: 100px;
+    background: #DDEFE0;
+    border-radius: 20px;
 
-.card{
-    border: 1px solid black;
-    border-radius: 10px;
+
+}
+.revenues-icon{
+    position: absolute;
+    left: 140px;
+    right: 60.04%;
+    top: 14.55%;
+    bottom: 83.11%;
+}
+.h-1{
+    position: absolute;
+    width: 124px;
+    height: 17px;
+    left: 1px;
+    top: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+.a-1{
+    position: absolute;
+    width: 124px;
+    height: 33px;
+    left: 10px;
+    top: 30px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+.transactions2{
+    position: absolute;
+    width: 180px;
+    height: 90px;
+    left: 610px;
+    top: 100px;
+
+
+
+    background: #F4ECDD;
+    border-radius: 20px;
+}
+.transactions-icon2{
+    position: absolute;
+    left: 140px;
+    right: 60.04%;
+    top: 14.55%;
+    bottom: 83.11%;
+}
+.h-2{
+    position: absolute;
+    width: 124px;
+    height: 17px;
+    left: 1px;
+    top: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+.a-2{
+    position: absolute;
+    width: 124px;
+    height: 33px;
+    left: -20px;
+    right :40px;
+    top: 30px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+.likes{
+    position: absolute;
+    width: 180px;
+    height: 90px;
+    left: 840px;
+    top: 100px;
+    background: #EFDADA;
+    border-radius: 20px;
+}
+.likes-icon{
+    position: absolute;
+    left: 140px;
+    right: 60.04%;
+    top: 14.55%;
+    bottom: 83.11%;
+}
+.h-3{
+    position: absolute;
+    width: 124px;
+    height: 17px;
+    left: -20px;
+    top: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+.a-3{
+    position: absolute;
+    width: 124px;
+    height: 33px;
+    left: -20px;
+    right :40px;
+    top: 30px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+.users2{
+    position: absolute;
+    width: 180px;
+    height: 90px;
+    left: 1060px;
+    top: 100px;
+    background: #DEE0EF;
+    border-radius: 20px;
+}
+.users-icon2{
+    position: absolute;
+    left: 140px;
+    right: 60.04%;
+    top: 14.55%;
+    bottom: 83.11%;
+}
+.h-4{
+    position: absolute;
+    width: 124px;
+    height: 17px;
+    left: -20px;
+    top: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+.a-4{
+    position: absolute;
+    width: 124px;
+    height: 33px;
+    left: -30px;
+    right :40px;
+    top: 30px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    /* identical to box height */
+
+    color: #000000;
 }

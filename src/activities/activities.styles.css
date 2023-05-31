@@ -1,0 +1,24 @@
+.activities-header{
+    position: absolute;
+    width: 93px;
+    height: 22px;
+    left: 420px;
+    top: 319px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+.activities-card{
+    align-items: center;
+    display: flex;
+}
+.graph-card{
+    /* top : 140px; */
+}

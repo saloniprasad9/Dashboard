@@ -1,10 +1,13 @@
 .line-chart{
-    height : 140px;
-    float: right; 
-    align-items: center;
+    /* float: right;  */
+    /* align-items: center; */
     margin: auto;
-    width: 40%;
-    height : 100px;
+    width: 40px;
     padding: 10px;
-    top : 40px;
+    /* top : 240px; */
+    bottom : 120px;
+}
+.linechart{
+    margin-left: 50px;
+    margin-top: 240px;
 }

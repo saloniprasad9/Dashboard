@@ -13,7 +13,7 @@ const Navigation = () => {
             </div>
             <img src={bell} className="bell"></img>
             <img src={picture} className="picture"></img>
-            {/* <button onClick={logout} className="logout-button">LogOut</button> */}
+            <button onClick={logout} className="logout-button">LogOut</button>
         </div>
     )
 }
