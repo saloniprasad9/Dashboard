@@ -1,8 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { useAuthState } from "react-firebase-hooks/auth";
-import { useNavigate } from "react-router-dom";
-import { auth, db, logout } from "../firebase";
-import { query, collection, getDocs, where } from "firebase/firestore";
+import React from "react";
 import SideBar from "../dashboard-sidebar/dashboard-sidebar.component";
 import Navigation from "../navigation/navigation.component";
 import Card from "../card/card.component";
@@ -11,7 +7,6 @@ import './dashboard.styles.css';
 import ProductCard from "../top-product-card/top-product-card.component";
 import Activities from "../activities/activities.component";
 const Dashboard = () => {
-    const navigate = useNavigate();
     return (
         <div className="dashboard">
             <Navigation/>
