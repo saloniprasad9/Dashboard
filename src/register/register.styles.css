@@ -1,4 +1,9 @@
-
+.register__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top : 30px;
+}
 
 .register__textBox1{
     width: 300px;
@@ -9,7 +14,7 @@
     border-radius: 10px;
 }
 
-.login__textBox2{
+.register__textBox2{
     width: 300px;
     height: 30px;
     border: none;
@@ -18,7 +23,15 @@
     border-radius: 10px;
 }
 
-.login__btn{
+.register__textBox3{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    border-radius: 10px;
+}
+.register__btn{
     color: white;
     background-color: black;
     width: 300px;
@@ -26,26 +39,12 @@
     border-radius: 10px;
 }
 
-.google-button{
+.register__google{
   width: 184px;
   height: 30px;
   border-radius: 10px;
 }
 
-.apple-button{
-    width: 184px;
-    height: 30px;
-    border-radius: 10px;
-}
-
-.sign-header{
-    margin-left: 30px;
-}
-
-.reset-button{
-    color : blue;
-}
-
-.register-button{
+.login{
     color: blue;
 }

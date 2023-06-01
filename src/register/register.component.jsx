@@ -33,14 +33,14 @@ const Register = () => {
         />
         <input
           type="text"
-          className="register__textBox"
+          className="register__textBox2"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="E-mail Address"
         />
         <input
           type="password"
-          className="register__textBox"
+          className="register__textBox3"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Password"
@@ -49,13 +49,13 @@ const Register = () => {
           Register
         </button>
         <button
-          className="register__btn register__google"
+          className="register__google"
           onClick={signInWithGoogle}
         >
           Register with Google
         </button>
         <div>
-          Already have an account? <Link to="/">Login</Link> now.
+          Already have an account? <Link to="/" className="login">Login</Link> now.
         </div>
       </div>
     </div>
