@@ -5,21 +5,12 @@ import { getFirestore, query, getDocs, collection, where, addDoc} from "firebase
 
 
 const firebaseConfig = {
-
-    apiKey: "AIzaSyDuaDxJ_Q9UYpjMFumS8UhzR57_LIm12W4",
-  
-    authDomain: "dashboard-ui-d1caa.firebaseapp.com",
-                                               
-    projectId: "dashboard-ui-d1caa",
-  
-    storageBucket: "dashboard-ui-d1caa.appspot.com",
-  
-    messagingSenderId: "420046950603",
-  
-    appId: "1:420046950603:web:ec7152e7411e38ef86cb4e",
-  
-    measurementId: "G-BECNP1DMDV"
-  
+  apiKey: "AIzaSyA1kZTipD4ZMv4MeN4l_EK89ZNnkoNEIXg",
+  authDomain: "dashboard-2ecff.firebaseapp.com",
+  projectId: "dashboard-2ecff",
+  storageBucket: "dashboard-2ecff.appspot.com",
+  messagingSenderId: "86151664503",
+  appId: "1:86151664503:web:f3a381881c6081262a0772"
 };
 
 const app = initializeApp(firebaseConfig);
