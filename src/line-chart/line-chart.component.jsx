@@ -5,7 +5,6 @@ import {
   Line,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   Legend
 } from "recharts";
@@ -51,7 +50,6 @@ const Graph = ()  => {
           bottom: 15
         }}
       >
-        {/* //<CartesianGrid strokeDasharray="3 3" /> */}
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />

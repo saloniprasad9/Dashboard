@@ -90,12 +90,12 @@ export const logout = () => {
     signOut(auth);
 };
 
-export default {
-    auth,
-    db,
-    signInWithGoogle,
-    logInWithEmailAndPassword,
-    registerWithEmailAndPassword,
-    sendPasswordReset,
-    logout,
-};
+// export default {
+//     auth,
+//     db,
+//     signInWithGoogle,
+//     logInWithEmailAndPassword,
+//     registerWithEmailAndPassword,
+//     sendPasswordReset,
+//     logout,
+// };

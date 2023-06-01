@@ -17,7 +17,7 @@ const ScheduleCard = () => {
                 <h6 className='p-2'>at Central Jakarta</h6>
             </div>
             <h6 className='see-all'>See all</h6>
-            <img className='sideicon' src={sideicon}></img>      
+            <img className='sideicon' src={sideicon} alt='sideicon'></img>      
         </div>
     )
 }
