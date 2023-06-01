@@ -2,8 +2,8 @@
     position: absolute;
     width: 93px;
     height: 22px;
-    left: 420px;
-    top: 319px;
+    left: 380px;
+    top: 190px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -19,6 +19,37 @@
     align-items: center;
     display: flex;
 }
-.graph-card{
-    /* top : 140px; */
+.date-card1{
+    position: absolute;
+    width: 97px;
+    height: 15px;
+    left: 400px;
+    top: 400px;
+}
+.date1{
+    position: absolute;
+    width: 97px;
+    height: 15px;
+    left: -14px;
+    top: -193px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    /* identical to box height */
+
+    /* Secondary Text */
+    color: #858585;
+}
+.downicon1{
+    position: absolute;
+    left: 80px;
+    right: 240px;
+    top: -160px;
+    bottom: 28.71%;
+
+    
 }

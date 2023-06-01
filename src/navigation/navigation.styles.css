@@ -80,6 +80,13 @@
     left : 820px;
     top: 23px;
 }
-/* .logout-button{
-
-} */
+.logout-button{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    margin-top : 600px;
+    margin-left : 700px;
+    /* margin-top: 20px; */
+    border-radius: 10px;
+}
