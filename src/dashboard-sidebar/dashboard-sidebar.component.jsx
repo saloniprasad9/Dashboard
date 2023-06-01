@@ -11,31 +11,31 @@ const SideBar = () => {
                 <h1 className='board1'>Board.</h1>
                 <div className='icons-container'>
                     <div>
-                        <img src={dashboardicon} className='dashboardicon'></img>
+                        <img src={dashboardicon} className='dashboardicon' alt='dashboardicon'></img>
                         <div className='dashboard1'>
                             Dashboard
                         </div>
                     </div>
                     <div>
-                        <img src={transactionsicon} className='transactionsicon'></img>
+                        <img src={transactionsicon} className='transactionsicon' alt='transactionicon'></img>
                         <div className='transactions'>
                             Transactions
                         </div>
                     </div>
                     <div>
-                        <img src={schedulesicon} className='schedulesicon'></img>
+                        <img src={schedulesicon} className='schedulesicon' alt='schedulesicon'></img>
                         <div className='schedules'>
                             Schedules
                         </div>
                     </div>
                     <div>
-                        <img src={usersicon} className='usersicon'></img>
+                        <img src={usersicon} className='usersicon' alt='usericon'></img>
                         <div className='users'>
                             Users
                         </div>
                     </div>
                     <div>
-                        <img src={settingsicon} className='settingsicon'></img>
+                        <img src={settingsicon} className='settingsicon' alt='settingsicon'></img>
                         <div className='settings'>
                             Settings
                         </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Link, useNavigate } from "react-router-dom";
+import './register.styles.css';
 import {
   auth,
   registerWithEmailAndPassword,
@@ -10,7 +11,7 @@ const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
-  const [user, loading, error] = useAuthState(auth);
+  const [user, loading] = useAuthState(auth);
   const navigate = useNavigate();
   const register = () => {
     if (!name) alert("Please enter name");
@@ -25,7 +26,7 @@ const Register = () => {
       <div className="register__container">
         <input
           type="text"
-          className="register__textBox"
+          className="register__textBox1"
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder="Full Name"

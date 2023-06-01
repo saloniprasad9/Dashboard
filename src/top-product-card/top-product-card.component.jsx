@@ -10,7 +10,7 @@ const ProductCard = () => {
         </div>
         <div className='date-card'>
             <h6 className='date'>May - June 2021</h6>
-            <img className='downicon' src={downicon}></img>
+            <img className='downicon' src={downicon} alt='downicon'></img>
         </div>
         <Pie/>
     </div>

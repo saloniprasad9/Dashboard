@@ -7,7 +7,7 @@ import './login.styles.css';
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [user, loading, error] = useAuthState(auth);
+  const [user, loading] = useAuthState(auth);
   const navigate = useNavigate();
   useEffect(() => {
     if (loading) {
@@ -19,7 +19,7 @@ const Login = () => {
   return (
     <div className="login">
       <div className="board">
-        <h2 className="header">Board.</h2>
+        <h1 className="header">Board.</h1>
       </div>
       <div className="login__container">
         <h2 className="sign-header">Sign In</h2>

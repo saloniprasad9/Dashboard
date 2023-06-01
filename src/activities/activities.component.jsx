@@ -8,7 +8,7 @@ const Activities = () => {
         <h4 className='activities-header'>Activities</h4>
         <div className='date-card1'>
             <h6 className='date1'>May - June 2021</h6>
-            <img className='downicon1' src={downicon}></img>
+            <img className='downicon1' src={downicon} alt='downicon'></img>
         </div>
         <div className='graph-card'>
             <Graph/>
