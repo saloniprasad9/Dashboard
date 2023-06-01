@@ -55,7 +55,7 @@ const Register = () => {
           Register with Google
         </button>
         <div>
-          Already have an account? <Link to="/" className="login">Login</Link> now.
+          Already have an account? <Link to="/" className="login-1">Login</Link> now.
         </div>
       </div>
     </div>
